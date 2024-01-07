@@ -60,16 +60,18 @@ main {
     background-color: #ffffff;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
-    text-align: right ;
-
 }
 .area {
+    display: flex;
     width: 70%;
-    max-width: 1440px;
-    align-items: flex;
-    justify-content: center;
-    position: relative;
+    max-width: 1072px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 
+.area1-text {
+    align-items: right;
 }
 
 .failure-list {
@@ -95,7 +97,6 @@ main {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 .ellipse {
